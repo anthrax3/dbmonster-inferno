@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "dbmonster-inferno",
-  "version": "0.1.0",
+  "version": "1.3.0",
   "description": "DBMonster Benchmark: Inferno",
   "homepage": "https://github.com/infernojs/dbmonster-inferno",
   "repository": "https://github.com/infernojs/dbmonster-inferno",
@@ -20,7 +20,8 @@
   },
   "devDependencies": {
     "babel-core": "^6.23.1",
-    "babel-loader": "^6.3.2",
+    "babel-loader": "^6.4.0",
+    "babel-plugin-inferno": "^2.0.0",
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-stage-0": "^6.22.0",
     "gulp": "github:gulpjs/gulp#4.0",
