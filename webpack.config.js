@@ -14,7 +14,7 @@ module.exports = {
             loader: 'babel-loader',
             query: {
                 presets: [['es2015', { loose: true, modules: false }], 'stage-0'],
-                plugins: ['babel-plugin-inferno']
+                plugins: ['babel-plugin-inferno', {imports: true}]
             }
         }]
     },
