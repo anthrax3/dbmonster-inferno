@@ -10,3 +10,7 @@ node_modules
 
 # gh-pages
 .publish
+
+
+*.orig
+package-lock.json

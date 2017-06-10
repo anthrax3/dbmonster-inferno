@@ -1,5 +1,7 @@
 import {ENV} from './ENV';
-import {render, options, createVNode} from 'inferno';
+import {render, options, version, createVNode} from 'inferno';
+
+document.title = 'Inferno ' + version + ' dbMonster';
 
 var elem = document.getElementById('App');
 options.recyclingEnabled = true; // Advanced optimisation
